@@ -1,0 +1,1 @@
+starter.controller("commonsuccessCtrl",["$scope","$stateParams",function(t,e){angular.extend(t,e)}]);

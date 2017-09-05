@@ -1,0 +1,1 @@
+starter.controller("mallCtrl",["$scope","$stateParams","$sce",function(t,r,e){angular.extend(t,r),t.paySrc=e.trustAsResourceUrl("http://shop.izsjia.com/Mobile")}]);

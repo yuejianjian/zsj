@@ -1,0 +1,1 @@
+starter.controller("yuyue2Ctrl",["$scope","httpSvc","$stateParams",function(e,o,t){angular.extend(e,t),console.log(t.name),console.log(t.mobile)}]);

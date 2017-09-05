@@ -1,0 +1,1 @@
+starter.constant("SYS_CONFIG",{MAC_WORDS:[],ENCODE_WORDS:[]});

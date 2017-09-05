@@ -1,0 +1,1 @@
+starter.controller("updatePackDetailCtrl",["$scope","httpSvc","$stateParams",function(e,t,o){angular.extend(e,o),t.post("/homeup/homeup/details",{homeupId:o.homeupId}).then(function(t){e.detail=t.response}),e.showTel=function(){e.isShowTel=!e.isShowTel}}]);

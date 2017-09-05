@@ -1,0 +1,1 @@
+starter.controller("shopcarCtrl",["$scope","$stateParams","$timeout",function(t,e,o){angular.extend(t,e);$(".item-checkbox")[0].offsetWidth;t.onSwipeLeft=function(t){console.log(t.target.parentNode);var e=t.target.parentNode;$(e).animate({left:"-70px"})},t.onSwipeRight=function(){document.getElementsByClassName("left")[0].style.left="0"}}]);

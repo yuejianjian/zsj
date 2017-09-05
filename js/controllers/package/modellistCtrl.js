@@ -1,0 +1,1 @@
+starter.controller("modellistCtrl",["$scope","httpSvc","$stateParams",function(t,s,o){angular.extend(t,o),console.log(o.suit_id),s.post("/suit/prototype/list",{suitId:o.suit_id}).then(function(s){t.modellist=s.response})}]);

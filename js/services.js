@@ -1,0 +1,1 @@
+starter.factory("localStorageService",[function(){return{get:function(t,e){var r=localStorage.getItem(t);try{r=angular.fromJson(r)}catch(t){r=null}return e&&null===r&&(r=e),r},update:function(t,e){e&&localStorage.setItem(t,angular.toJson(e))},clear:function(t){localStorage.removeItem(t)}}}]);

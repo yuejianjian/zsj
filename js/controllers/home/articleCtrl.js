@@ -1,0 +1,1 @@
+starter.controller("articleCtrl",["$scope","httpSvc","$stateParams",function(t,e,a){angular.extend(t,a),e.post("/article/article/details",{aid:a.aid}).then(function(e){t.detail=e.response})}]);

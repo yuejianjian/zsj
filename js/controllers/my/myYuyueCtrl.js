@@ -1,0 +1,1 @@
+starter.controller("myYuyueCtrl",["$scope","checkSvc","$rootScope","$stateParams",function(e,n,c,t){angular.extend(e,t),n.checkLogin(),e.navIndex=1,e.changeIndex=function(n){e.navIndex=n}}]);

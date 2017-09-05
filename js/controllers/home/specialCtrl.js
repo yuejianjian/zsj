@@ -1,0 +1,1 @@
+starter.controller("specialCtrl",["$scope","httpSvc","$stateParams",function(e,t,a){angular.extend(e,a),t.post("/spread/spread/details",{spreadId:7}).then(function(t){e.adImg=t.response})}]);

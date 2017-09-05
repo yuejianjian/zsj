@@ -1,0 +1,1 @@
+starter.controller("modelchooseCtrl",["$scope","$stateParams","$ionicActionSheet","$timeout","$ionicLoading",function(o,t,e,n,i){angular.extend(o,t)}]);

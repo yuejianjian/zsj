@@ -1,0 +1,1 @@
+starter.controller("yuyue1Ctrl",["$scope","httpSvc","$stateParams","$state",function(e,t,n,o){angular.extend(e,n),e.yuyue=function(){var n=$(".info-input").eq(0).val(),a=$(".info-input").eq(1).val();t.post("/myhome/appointment/index",{name:n,mobile:a}).then(function(t){0==t.code?(e.showTip=!0,e.tip=t.msg):o.go("yuyue2",{name:n,mobile:a})})}}]);

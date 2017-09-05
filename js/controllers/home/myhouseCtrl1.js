@@ -1,0 +1,1 @@
+starter.controller("myhouseCtrl1",["$scope","$rootScope","$state","$stateParams",function(t,e,o,r){angular.extend(t,r),e.token}]);

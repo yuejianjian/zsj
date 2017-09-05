@@ -1,0 +1,1 @@
+starter.controller("myContractCtrl",["$scope","checkSvc","$rootScope","$stateParams",function(t,c,e,o){angular.extend(t,o),c.checkLogin()}]);

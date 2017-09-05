@@ -1,0 +1,1 @@
+starter.directive("thPlaceholder",function(){return{restrict:"A",link:function(e,l,r){l.bind("blur",function(){r.placeholder=r.thPlaceholder,console.log(r.placeholder)})}}});

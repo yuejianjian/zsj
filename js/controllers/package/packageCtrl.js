@@ -1,0 +1,1 @@
+starter.controller("packageCtrl",["$scope","httpSvc","$stateParams",function(t,e,s){angular.extend(t,s),e.post("/spread/spread/details",{spreadId:4}).then(function(e){t.adImg=e.response[0].ad_code}),e.post("/suit/suit/list",{}).then(function(e){t.packageList=e.response})}]);
